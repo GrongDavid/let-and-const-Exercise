@@ -1,0 +1,14 @@
+const PI = 3.14;
+PI = 42;
+
+What is the difference between var and let?
+	You can both reassign and redeclare with var, but with let you cannot redeclare.
+
+What is the difference between var and const?
+	You can both reassign and redeclare with var, but with const you cannot do either.
+
+What is the difference between let and const?
+	Let allows you to reassign but not redeclare, whereas const won't let you do either.
+
+What is hoisting?
+	Using var, variables are lifted to the top and declared right away, even before initialization.
